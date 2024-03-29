@@ -19,17 +19,23 @@ STRIPE_PRIVATE_KEY=
 ### 3. Install Dependencies
 
 ```
-cd stripe-demo/server
+cd ./stripe-demo/server
+
 npm install
-npm run dev
+```
 
-cd ../client
+### 4. Run server
+
+```
+cd ./stripe-demo/server
+
+npm run dev
+```
+
+### 5. Run client
+
+```
+cd ./stripe-demo/client
+
 run index.html with live server and click checkout
-
-```
-
-### 4. Run the development server
-
-```
-npm run dev
 ```
